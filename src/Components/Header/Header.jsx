@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import Basket from "../Backet/Basket";
 import styles from "./Header.module.css";
 
-import { BiRuble } from "react-icons/bi";
-
-const Header = () => {
+const Header = ({ game }) => {
   return (
     <>
       <header className={styles.header}>
@@ -16,12 +14,9 @@ const Header = () => {
           <div className={styles.headerMenuBasket}>
             <div className={styles.headerMenuBasketLink}>
               <Link to="/orders">
-                <Basket />
+                <Basket game={game} />
               </Link>
             </div>
-            <span className={styles.headerMenuBusketSum}>
-              0 <BiRuble />
-            </span>
           </div>
         </ul>
       </header>

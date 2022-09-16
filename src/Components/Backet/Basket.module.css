@@ -1,4 +1,13 @@
 .basket {
-  /* background-color: #fff; */
-  /* color: #000; */
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.busketSum {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px 0px 0px 10px;
 }

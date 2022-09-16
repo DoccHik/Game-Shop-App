@@ -90,4 +90,4 @@ const HomePage = () => {
 
 export default HomePage;
 
-// todo https://youtu.be/q6qbBbFk4w4?list=PL1EApzIeyBXY4JOnYkusYnb1dM3mP3ojN&t=52
+// todo https://youtu.be/q6qbBbFk4w4?list=PL1EApzIeyBXY4JOnYkusYnb1dM3mP3ojN&t=1219

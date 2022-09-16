@@ -17,16 +17,3 @@
 .headerMenuItem a:hover {
   color: aqua;
 }
-
-.headerMenuBasket {
-  display: flex;
-  align-items: center;
-}
-
-.headerMenuBusketSum {
-  display: flex;
-  align-items: center;
-  font-size: 18px;
-  font-weight: 700;
-  margin: 0px 0px 0px 20px;
-}
